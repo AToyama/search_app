@@ -1,0 +1,49 @@
+body {
+  margin:0;
+  text-align: center;
+  background-color: #ff6156;
+}
+
+#root {
+    padding: 48px 160px 48px 160px;
+    font-family: 'Avenir LT Std', sans-serif;
+}
+
+select,input {
+  font-size: 16px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 30px; 
+}
+
+select {
+  padding: 12px 20px 12px 10px; 
+}
+
+input {
+  background-image: url('search-icon.png');
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  padding: 12px 20px 12px 40px;
+}
+
+ul {
+  padding: 0;
+  margin: auto;
+  width:54.2%;
+}
+ul li{
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px; 
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+p {
+  font-size: 80%;
+  margin: 0;
+  margin-top:5px;
+}
